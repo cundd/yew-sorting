@@ -1,0 +1,15 @@
+[package]
+name = "yew-sorting"
+version = "0.1.0"
+authors = ["Daniel Corn <info@cundd.net>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+yew = { version = "0.13.0", features = ["std_web"] }
+log = "0.4"
+web_logger = "0.2"
+serde = "1"
+serde_derive = "1"
+stdweb = "0.4.20"
