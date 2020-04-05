@@ -69,7 +69,9 @@ impl Component for SongList {
     fn view(&self) -> Html {
         let songs = &self.props.songs;
         let render = |(index, song): (usize, &Entry)| {
-            html! { <Item index=index song=song.clone() /> }
+            let key = song.name.clone();
+
+            html! { <Item key=key index=index song=song.clone() /> }
         };
 
         info!(

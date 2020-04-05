@@ -65,6 +65,7 @@ impl Component for App {
         }
     }
 
+
     fn update(&mut self, msg: Self::Message) -> ShouldRender {
         match msg {
             Msg::SortingChange(s) => {
@@ -72,6 +73,10 @@ impl Component for App {
                 true // Indicate that the Component should re-render
             }
         }
+    }
+
+    fn change(&mut self, _props: Self::Properties) -> bool {
+        true
     }
 
     fn view(&self) -> Html {

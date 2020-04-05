@@ -336,8 +336,8 @@ dependencies = [
 
 [[package]]
 name = "yew"
-version = "0.13.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
+version = "0.14.3"
+source = "git+https://github.com/mrh0057/yew?branch=keyed_update#c8cafbb0769679b1f53c7eb3128a3606d93eada0"
 dependencies = [
  "anyhow 1.0.28 (registry+https://github.com/rust-lang/crates.io-index)",
  "anymap 0.12.1 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -356,13 +356,13 @@ dependencies = [
  "stdweb 0.4.20 (registry+https://github.com/rust-lang/crates.io-index)",
  "thiserror 1.0.14 (registry+https://github.com/rust-lang/crates.io-index)",
  "wasm-bindgen 0.2.60 (registry+https://github.com/rust-lang/crates.io-index)",
- "yew-macro 0.13.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "yew-macro 0.14.1 (git+https://github.com/mrh0057/yew?branch=keyed_update)",
 ]
 
 [[package]]
 name = "yew-macro"
-version = "0.13.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
+version = "0.14.1"
+source = "git+https://github.com/mrh0057/yew?branch=keyed_update#c8cafbb0769679b1f53c7eb3128a3606d93eada0"
 dependencies = [
  "boolinator 2.4.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "lazy_static 1.4.0 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -381,7 +381,7 @@ dependencies = [
  "serde_derive 1.0.106 (registry+https://github.com/rust-lang/crates.io-index)",
  "stdweb 0.4.20 (registry+https://github.com/rust-lang/crates.io-index)",
  "web_logger 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "yew 0.13.2 (registry+https://github.com/rust-lang/crates.io-index)",
+ "yew 0.14.3 (git+https://github.com/mrh0057/yew?branch=keyed_update)",
 ]
 
 [metadata]
@@ -430,5 +430,5 @@ dependencies = [
 "checksum wasm-bindgen-macro-support 0.2.60 (registry+https://github.com/rust-lang/crates.io-index)" = "d68a5b36eef1be7868f668632863292e37739656a80fc4b9acec7b0bd35a4931"
 "checksum wasm-bindgen-shared 0.2.60 (registry+https://github.com/rust-lang/crates.io-index)" = "daf76fe7d25ac79748a37538b7daeed1c7a6867c92d3245c12c6222e4a20d639"
 "checksum web_logger 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)" = "f50afec20c2e728ca33ffb77d1ed049c8559f1d2e59e0fea36f6586d5bc74683"
-"checksum yew 0.13.2 (registry+https://github.com/rust-lang/crates.io-index)" = "35e21ea7b89b427fe0db9922cad08f51e5d9464434b3843414b253008b7cc0d1"
-"checksum yew-macro 0.13.0 (registry+https://github.com/rust-lang/crates.io-index)" = "7799777bca19f96d9eb0c865e53c489565ffb890b9d48b58c9c50ef5c8df3532"
+"checksum yew 0.14.3 (git+https://github.com/mrh0057/yew?branch=keyed_update)" = "<none>"
+"checksum yew-macro 0.14.1 (git+https://github.com/mrh0057/yew?branch=keyed_update)" = "<none>"
